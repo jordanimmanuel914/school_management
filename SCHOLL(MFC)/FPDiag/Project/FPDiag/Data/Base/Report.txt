@@ -1,0 +1,31 @@
+adsf
+23
+2022-09-02
+Grade 6
+High School Die Wil
+C:\Users\Administrator\Pictures\Untitled.bmp
+Linear Equations	Number System
+Learner Name and Surname	Parent Name and Surname
+afasdf
+D:\Development\FPDiag\Project\FPDiag\Data\CSV\1.csv
+2
+1	0	0	1	3	1,2,3,...	Linear Equations	Calculator
+2	0	0	1	4	1),2),3),...	Number System	Knowledge
+Q7
+70
+2022-10-07
+Grade 7
+High School Die Wilgers
+C:\Users\hus\Documents\TestData\s.bmp
+Quadratic Equations	Exponential Equations	Euclidean Geometry	Measurement Geometry	Algebraic Expressions	Number System	Rates and Ratios
+Learner Name and Surname	Parent Name and Surname
+This is the Mathematics report for @Student_Name @Student_Surname.  This report is based on his/her June exam results written at @School_Name
+C:\Users\hus\Videos\TestData\Test1_Q7.csv
+7
+1	0	0	1	10	1,2,3,...	Exponential Equations	Language Rich,Calculator
+2	0	0	1	10		Euclidean Geometry	Calculator,Level 1
+3	0	0	1	10		Quadratic Equations	Knowledge,Level 1
+4	0	0	1	10		Number System	Language Rich
+5	0	0	1	10		Algebraic Expressions	Level 3
+6	0	0	1	10		Rates and Ratios	Language Rich,Calculator,Routine
+7	0	0	1	10		Number System	Level 1,Level 2

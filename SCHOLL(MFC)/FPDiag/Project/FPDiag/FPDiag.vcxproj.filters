@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FPDiag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FPDiagDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DIBSectionLite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GradeDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GradePage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HomePage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LogoWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MSWord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyBitmapButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLineEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyRadioButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyScrollBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestionDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SubmitThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TagDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TagsPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TopicDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TopicPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SendDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCheckCombiBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FPDiag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FPDiagDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DIBSectionLite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GradeDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GradePage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HomePage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MSWord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyBitmapButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLineEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyRadioButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyScrollBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestionDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReportDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReportPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SubmitThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TagDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TagsPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TopicDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TopicPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SendDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCheckCombiBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FPDiag.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\FPDiag.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\FPDiag.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Buttons\ADD NEW GRADE_MOVE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Buttons\ADD NEW GRADE_UP.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Buttons\ADD NEW REPORT_MOVE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Buttons\ADD NEW REPORT_UP.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Buttons\ADD NEW TAG_MOVE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Buttons\ADD NEW TAG_UP.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Buttons\ADD NEW TOPIC_MOVE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Buttons\ADD NEW TOPIC_UP.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Buttons\BACK_FOCUS.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Buttons\BACK_UP.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Buttons\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Buttons\DELETE_FOCUS.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Buttons\DELETE_UP.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Buttons\EDIT_FOCUS.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Buttons\EDIT_UP.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Buttons\GENERATE_FOCUS.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Buttons\GENERATE_UP.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Buttons\NEXT_FOCUS.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Buttons\NEXT_UP.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Buttons\SUBMIT_MOVE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Buttons\SUBMIT_UP.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Buttons\TAB_GRADE_DOWN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Buttons\TAB_GRADE_UP.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Buttons\TAB_HOME_DOWN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Buttons\TAB_HOME_UP.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Buttons\TAB_REPORTS_DOWN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Buttons\TAB_REPORTS_UP.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Buttons\TAB_TAGS_DOWN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Buttons\TAB_TAGS_UP.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Buttons\TAB_TOPIC_DOWN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Buttons\TAB_TOPIC_UP.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

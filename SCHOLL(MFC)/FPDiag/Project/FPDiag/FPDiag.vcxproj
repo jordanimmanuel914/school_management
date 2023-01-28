@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4B45D15C-ACD0-40E5-9B7A-531CB3A15D26}</ProjectGuid>
+    <RootNamespace>FPDiag</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>libcurl\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>libcurl/lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcurl.a;libssl.a;libssh2.a;libcrypto.a;libbrotlicommon.a;libbrotlidec.a;libcurl.dll.a;libgsasl.a;libidn2.a;libnghttp2.a;libnghttp3.a;libngtcp2.a;libngtcp2_crypto_openssl.a;libz.a;libzstd.a;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>
+      </FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>libcurl\include</AdditionalIncludeDirectories>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>libcurl/lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcurl.a;libssl.a;libssh2.a;libcrypto.a;libbrotlicommon.a;libbrotlidec.a;libcurl.dll.a;libgsasl.a;libidn2.a;libnghttp2.a;libnghttp3.a;libngtcp2.a;libngtcp2_crypto_openssl.a;libz.a;libzstd.a;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DIBSectionLite.h" />
+    <ClInclude Include="FPDiag.h" />
+    <ClInclude Include="FPDiagDlg.h" />
+    <ClInclude Include="GradeDialog.h" />
+    <ClInclude Include="GradePage.h" />
+    <ClInclude Include="HomePage.h" />
+    <ClInclude Include="LogoWnd.h" />
+    <ClInclude Include="MSWord.h" />
+    <ClInclude Include="MyBitmapButton.h" />
+    <ClInclude Include="MyCheckCombiBox.h" />
+    <ClInclude Include="MyLabel.h" />
+    <ClInclude Include="MyLineEdit.h" />
+    <ClInclude Include="MyRadioButton.h" />
+    <ClInclude Include="MyScrollBar.h" />
+    <ClInclude Include="QuestionDialog.h" />
+    <ClInclude Include="ReportDialog.h" />
+    <ClInclude Include="ReportPage.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SendDialog.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="SubmitThread.h" />
+    <ClInclude Include="TagDialog.h" />
+    <ClInclude Include="TagsPage.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TextFile.h" />
+    <ClInclude Include="TopicDialog.h" />
+    <ClInclude Include="TopicPage.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DIBSectionLite.cpp" />
+    <ClCompile Include="FPDiag.cpp" />
+    <ClCompile Include="FPDiagDlg.cpp" />
+    <ClCompile Include="GradeDialog.cpp" />
+    <ClCompile Include="GradePage.cpp" />
+    <ClCompile Include="HomePage.cpp" />
+    <ClCompile Include="LogoWnd.cpp" />
+    <ClCompile Include="MSWord.cpp" />
+    <ClCompile Include="MyBitmapButton.cpp" />
+    <ClCompile Include="MyCheckCombiBox.cpp" />
+    <ClCompile Include="MyLabel.cpp" />
+    <ClCompile Include="MyLineEdit.cpp" />
+    <ClCompile Include="MyRadioButton.cpp" />
+    <ClCompile Include="MyScrollBar.cpp" />
+    <ClCompile Include="QuestionDialog.cpp" />
+    <ClCompile Include="ReportDialog.cpp" />
+    <ClCompile Include="ReportPage.cpp" />
+    <ClCompile Include="SendDialog.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SubmitThread.cpp" />
+    <ClCompile Include="TagDialog.cpp" />
+    <ClCompile Include="TagsPage.cpp" />
+    <ClCompile Include="TextFile.cpp" />
+    <ClCompile Include="TopicDialog.cpp" />
+    <ClCompile Include="TopicPage.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FPDiag.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\FPDiag.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Buttons\ADD NEW GRADE_MOVE.bmp" />
+    <Image Include="res\Buttons\ADD NEW GRADE_UP.bmp" />
+    <Image Include="res\Buttons\ADD NEW REPORT_MOVE.bmp" />
+    <Image Include="res\Buttons\ADD NEW REPORT_UP.bmp" />
+    <Image Include="res\Buttons\ADD NEW TAG_MOVE.bmp" />
+    <Image Include="res\Buttons\ADD NEW TAG_UP.bmp" />
+    <Image Include="res\Buttons\ADD NEW TOPIC_MOVE.bmp" />
+    <Image Include="res\Buttons\ADD NEW TOPIC_UP.bmp" />
+    <Image Include="res\Buttons\BACK_FOCUS.bmp" />
+    <Image Include="res\Buttons\BACK_UP.bmp" />
+    <Image Include="res\Buttons\bitmap1.bmp" />
+    <Image Include="res\Buttons\DELETE_FOCUS.bmp" />
+    <Image Include="res\Buttons\DELETE_UP.bmp" />
+    <Image Include="res\Buttons\EDIT_FOCUS.bmp" />
+    <Image Include="res\Buttons\EDIT_UP.bmp" />
+    <Image Include="res\Buttons\GENERATE_FOCUS.bmp" />
+    <Image Include="res\Buttons\GENERATE_UP.bmp" />
+    <Image Include="res\Buttons\NEXT_FOCUS.bmp" />
+    <Image Include="res\Buttons\NEXT_UP.bmp" />
+    <Image Include="res\Buttons\SUBMIT_MOVE.bmp" />
+    <Image Include="res\Buttons\SUBMIT_UP.bmp" />
+    <Image Include="res\Buttons\TAB_GRADE_DOWN.bmp" />
+    <Image Include="res\Buttons\TAB_GRADE_UP.bmp" />
+    <Image Include="res\Buttons\TAB_HOME_DOWN.bmp" />
+    <Image Include="res\Buttons\TAB_HOME_UP.bmp" />
+    <Image Include="res\Buttons\TAB_REPORTS_DOWN.bmp" />
+    <Image Include="res\Buttons\TAB_REPORTS_UP.bmp" />
+    <Image Include="res\Buttons\TAB_TAGS_DOWN.bmp" />
+    <Image Include="res\Buttons\TAB_TAGS_UP.bmp" />
+    <Image Include="res\Buttons\TAB_TOPIC_DOWN.bmp" />
+    <Image Include="res\Buttons\TAB_TOPIC_UP.bmp" />
+    <Image Include="res\FPDiag.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="FPDiag.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
